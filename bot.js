@@ -12,7 +12,9 @@ client.on('message', message => {
     if (message.content === 'ping') {
     	message.reply('pong');
   	}
-    
+    if (message.content==="displayE"){
+        message.reply("Convos are "+end+" long...");
+    }
     if(message.content.startsWith("Raphiel-tan")){
        message.reply("I'm not your girlfriend!");
        waifu=1;
@@ -21,6 +23,12 @@ client.on('message', message => {
         message.reply("but apparently I'm his waifu...");
            waifu=0;
     }
+    if (message.content.startsWith==="Start a conversation"){
+        message.reply("how long do you want us to talk?"){
+        end=message.reply;
+    }
+        //message.reply("I'll call my friends");
+        
     
     
     

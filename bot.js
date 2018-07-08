@@ -26,6 +26,8 @@ client.on('message', message => {
     if (message.content==="Start a conversation"){
         message.reply("how long do you want us to talk?")
         message.reply("I'll call my friends");
+        message.channel.send("Satania-sama, how are you?");
+        cs=1;
     }    
     
     

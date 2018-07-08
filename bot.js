@@ -25,10 +25,8 @@ client.on('message', message => {
     }
     if (message.content==="Start a conversation"){
         message.reply("how long do you want us to talk?")
-        end=message.reply;
-    }
-        //message.reply("I'll call my friends");
-        
+        message.reply("I'll call my friends");
+    }    
     
     
     

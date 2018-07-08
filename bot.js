@@ -24,7 +24,7 @@ client.on('message', message => {
            waifu=0;
     }
     if (message.content.startsWith==="Start a conversation"){
-        message.reply("how long do you want us to talk?"){
+        message.reply("how long do you want us to talk?")
         end=message.reply;
     }
         //message.reply("I'll call my friends");

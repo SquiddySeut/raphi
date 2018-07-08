@@ -23,7 +23,7 @@ client.on('message', message => {
         message.reply("but apparently I'm his waifu...");
            waifu=0;
     }
-    if (message.content.startsWith==="Start a conversation"){
+    if (message.content==="Start a conversation"){
         message.reply("how long do you want us to talk?")
         end=message.reply;
     }

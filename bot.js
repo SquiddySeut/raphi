@@ -15,14 +15,14 @@ client.on('message', message => {
     if (message.content==="displayE"){
         message.reply("Convos are "+end+" long...");
     }
-    if(message.content.startsWith("Raphiel-tan")){
+    /*if(message.content.startsWith("Raphiel-tan")){
        message.reply("I'm not your girlfriend!");
        waifu=1;
     }
     if (message.content===("SquiddySeut")&&waifu===1){
         message.reply("but apparently I'm his waifu...");
            waifu=0;
-    }
+    }*/
     if (message.content==="Start a conversation"){
         //message.reply("how long do you want us to talk?")
         message.channel.send("I'll call my friends");
